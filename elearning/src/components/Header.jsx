@@ -9,6 +9,8 @@ const Header = () => {
       <main>
         <HashLink to={"/#home"}>Home</HashLink>
         <Link to={"/contact"}>Contact</Link>
+        
+        {/* HashLink not get reloaded as Link tag and also can target a container(target via #id) like <a> tag */}
         <HashLink to={"/#about"}>About</HashLink>
         <HashLink to={"/#brands"}>Brands</HashLink>
         <Link to={"/services"}>Services</Link>

@@ -32,7 +32,7 @@
     height: 100%;
     position: absolute;
     background: no-repeat center/auto url("../assets/1.png");
-    filter: blur(3px);
+    filter: blur(1.7px);
     border-radius: 0 0 200px 200px;
   }
 }
@@ -161,7 +161,7 @@
           filter: invert(1);
         }
 
-        svg {
+        svg {  //svg is icon
           font-size: 4rem;
         }
         p {
