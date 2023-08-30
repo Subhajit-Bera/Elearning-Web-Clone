@@ -11,9 +11,6 @@ nav {
   top: 0%;
   z-index: 10;
 
-//   > h1 {
-//     text-transform: uppercase;
-//   }
 
   > main {
     width: 70%;
@@ -22,7 +19,7 @@ nav {
 
     > a {
       color: $dark;
-      margin: 1rem;
+      margin: 1rem;  //Provid margine among <a> tags horizontally and vertically
 
       &:hover {
         color: $third;

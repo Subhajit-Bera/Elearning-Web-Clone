@@ -6,6 +6,7 @@ import {
   AiFillYoutube,
   AiFillInstagram,
 } from "react-icons/ai";
+//Importing icons for bands from reac-icons/ai
 
 const Home = () => {
   return (
@@ -18,7 +19,8 @@ const Home = () => {
       </div>
 
       <div className="home2">
-        <img src={vg} alt="Graphics" />
+        {/* vg is graphic */}
+        <img src={vg} alt="Graphics" /> 
 
         <div>
           <p>
@@ -39,10 +41,12 @@ const Home = () => {
         </div>
       </div>
 
+
       <div className="home4" id="brands">
         <div>
           <h1>Brands</h1>
 
+          {/* Adding animationDelay in order to provide a wave style to bands */}
           <article>
             <div
               style={{
